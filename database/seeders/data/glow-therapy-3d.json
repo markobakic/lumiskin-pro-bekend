@@ -1,0 +1,296 @@
+{
+  "fullName": "3D Glow Therapy I LED Light Therapy maska",
+  "shortName": "3D Glow Therapy maska",
+  "typeLabel": "LED Light Therapy Maska",
+  "rating": 4.7,
+  "ratingLabel": "4,7",
+  "reviewCount": 9,
+  "description": "LED maska za kućnu negu lica sa 280 LED dioda i 8 režima svetlosne terapije, namenjenih različitim potrebama kože — od nege kože sklone aknama i pigmentnim nepravilnostima do poboljšanja izgleda teksture, crvenila i vidljivih znakova starenja.",
+  "bullets": [
+    {
+      "icon": "led_dioda",
+      "text": "280 LED dioda za svetlosnu negu lica"
+    },
+    {
+      "icon": "podesavanja_rezima",
+      "text": "8 režima svetlosne terapije sa različitim talasnim dužinama i kombinacijama svetlosti"
+    },
+    {
+      "icon": "talasne_duzine",
+      "text": "Pet talasnih dužina: 465nm, 530nm, 590nm, 630nm i 850 nm"
+    },
+    {
+      "icon": "fleksibilna_maska",
+      "text": "Fleksibilna silikonska konstrukcija za kućnu upotrebu"
+    },
+    {
+      "icon": "tajmer",
+      "text": "Izbor trajanja tretmana od 5 ili 10 minuta"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "wrinkles",
+      "title": "Ciljano delovanje na kožu"
+    },
+    {
+      "icon": "repair",
+      "title": "8 svetlosnih režima"
+    },
+    {
+      "icon": "rejuvenation",
+      "title": "Nega prilagođena vašoj koži"
+    }
+  ],
+  "sections": [
+    {
+      "key": "description",
+      "title": "Opis proizvoda",
+      "type": "paragraphs",
+      "content": [
+        "3D Glow Therapy maska osmišljena je za jednostavnu kućnu negu lica uz pomoć svetlosne terapije. Zahvaljujući fleksibilnoj silikonskoj konstrukciji, 280 LED dioda i 8 režima svetlosti, omogućava udobno prijanjanje na lice i odabir tretmana prema različitim potrebama kože — od kože sklone aknama i višku sebuma do neujednačenog tena, pigmentnih nepravilnosti, crvenila i vidljivih znakova starenja.",
+        "Jednostavno upravljanje pomoću kontrolera omogućava izbor režima i trajanja tretmana od 5, 10 ili 15 minuta, pa se maska praktično uklapa u svakodnevnu rutinu nege.",
+        "3D Glow Therapy maska namenjena je kozmetičkoj nezi kod kuće i predstavlja praktičan dodatak rutini usmerenoj ka negovanijem, ujednačenijem i blistavijem izgledu kože. Rezultati se mogu razlikovati u zavisnosti od individualnih karakteristika i stanja kože.",
+        "Uređaj je namenjen isključivo kozmetičkoj nezi i nije medicinsko sredstvo."
+      ]
+    },
+    {
+      "key": "howToUse",
+      "title": "Kako se koristi",
+      "type": "steps",
+      "content": [
+        {
+          "step": "Pripremite kožu",
+          "text": "Očistite lice i potpuno ga osušite. Pre tretmana koža treba da bude bez šminke i proizvoda koji sadrže sastojke koji povećavaju osetljivost na svetlost."
+        },
+        {
+          "step": "Postavite zaštitu za oči",
+          "text": "Postavite zaštite za oči u predviđene otvore sa unutrašnje strane maske. Proverite da li su pravilno pričvršćene i da li udobno naležu."
+        },
+        {
+          "step": "Postavite masku",
+          "text": "Namestite masku na lice i podesite trake tako da stabilno i udobno prijanja. Povežite integrisani kabl maske sa kontrolerom."
+        },
+        {
+          "step": "Uključite uređaj",
+          "text": "Pritisnite i držite dugme POWER na kontroleru. Maska se pokreće u režimu crvene svetlosti, sa podrazumevanim tajmerom od 5 minuta."
+        },
+        {
+          "step": "Izaberite režim svetlosti",
+          "text": "Dugmetom M menjajte 8 režima svetlosne terapije. Kratkim pritiskom na dugme POWER birate trajanje tretmana od 5 ili 10 minuta."
+        },
+        {
+          "step": "Završite tretman",
+          "text": "Po završetku tretmana skinite masku i isključite uređaj. Nastavite uobičajenu rutinu nege kože. Ako osetite bol, peckanje ili neuobičajenu nelagodnost, odmah prekinite tretman. Preporučena učestalost: 3–4 puta nedeljno, uz prilagođavanje toleranciji kože. Ukupno preporučeno trajanje tretmana je 10–15 minuta."
+        }
+      ]
+    },
+    {
+      "key": "lightModes",
+      "title": "Režimi svetlosti",
+      "type": "modes-table",
+      "content": [
+        {
+          "num": 1,
+          "colorName": "Crvena",
+          "wavelength": "630 nm",
+          "bgColor": "#fde8e8",
+          "text": "Podržava prirodne procese obnove kože i može doprineti ujednačenijem tenu i ublažavanju znakova starenja.",
+          "colors": [
+            "#E84343"
+          ]
+        },
+        {
+          "num": 2,
+          "colorName": "NIR",
+          "mixColors": "duboka infracrvena",
+          "wavelength": "850 nm",
+          "bgColor": "#f2e8e6",
+          "text": "Namenjena je nezi kože, podršci njenoj čvrstini i ublažavanju vidljivosti finih linija i bora.",
+          "colors": [
+            "#d4a8a8"
+          ]
+        },
+        {
+          "num": 3,
+          "colorName": "Plava",
+          "wavelength": "465 nm",
+          "bgColor": "#e4edfa",
+          "text": "Često se koristi u nezi kože sklone aknama, jer određene talasne dužine plave svetlosti mogu delovati na bakterije povezane sa njihovim nastankom.",
+          "colors": [
+            "#4a7cdc"
+          ]
+        },
+        {
+          "num": 4,
+          "colorName": "Narandžasta",
+          "wavelength": "590 nm",
+          "bgColor": "#fef0e0",
+          "text": "Namenjena je umirujućoj nezi kože i podršci njenom svežijem i blistavijem izgledu.",
+          "colors": [
+            "#e8943a"
+          ]
+        },
+        {
+          "num": 5,
+          "colorName": "Ljubičasta",
+          "mixColors": "plava + crvena",
+          "wavelength": "465 + 630 nm",
+          "bgColor": "#ece4f8",
+          "text": "Namenjena je dodatnoj svetlosnoj nezi kože. Efekti zavise od konkretne talasne dužine, intenziteta i karakteristika uređaja.",
+          "colors": [
+            "#4a7cdc",
+            "#E84343"
+          ]
+        },
+        {
+          "num": 6,
+          "colorName": "Cijan",
+          "mixColors": "plava + zelena",
+          "wavelength": "465 + 530 nm",
+          "bgColor": "#e0eaf5",
+          "text": "Predstavlja dodatni režim svetlosne nege. Njeno specifično delovanje zavisi od karakteristika uređaja i talasne dužine.",
+          "colors": [
+            "#4a7cdc",
+            "#5ba05e"
+          ]
+        },
+        {
+          "num": 7,
+          "colorName": "Zelena",
+          "wavelength": "530 nm",
+          "bgColor": "#e4f5e8",
+          "text": "Namenjena je umirujućoj nezi kože i vizuelnom ujednačavanju njenog tona.",
+          "colors": [
+            "#5ba05e"
+          ]
+        },
+        {
+          "num": 8,
+          "colorName": "Žuta",
+          "mixColors": "zelena + crvena",
+          "wavelength": "530 + 630 nm",
+          "bgColor": "#faf4df",
+          "text": "Namenjena je nezi kože kojoj je potreban umirujući tretman i podrška ujednačenijem tenu.",
+          "colors": [
+            "#5ba05e",
+            "#E84343"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "whatsInBox",
+      "title": "Šta obuhvata pakovanje?",
+      "type": "list",
+      "content": [
+        "3D Glow Therapy LED maska",
+        "Kontroler",
+        "Zaštite za oči",
+        "USB kabl za punjenje",
+        "Uputstvo za upotrebu"
+      ]
+    },
+    {
+      "key": "specs",
+      "title": "Tehničke specifikacije",
+      "type": "specs",
+      "content": [
+        {
+          "type": "modesTable",
+          "headers": [
+            "Režim",
+            "Talasna dužina (nm)",
+            "Iradijansa (mW/cm²)",
+            "Energetska doza (J/cm²)"
+          ],
+          "rows": [
+            {
+              "bg": "#fde8e8",
+              "cells": [
+                "Crvena",
+                "630",
+                "35 ± 10%",
+                "21"
+              ]
+            },
+            {
+              "bg": "#f2e8e6",
+              "cells": [
+                "NIR — bliska infracrvena",
+                "850",
+                "30 ± 10%",
+                "18"
+              ]
+            },
+            {
+              "bg": "#e4edfa",
+              "cells": [
+                "Plava",
+                "465",
+                "29 ± 10%",
+                "17,4"
+              ]
+            },
+            {
+              "bg": "#e4f5e8",
+              "cells": [
+                "Zelena",
+                "530",
+                "35 ± 10%",
+                "21"
+              ]
+            },
+            {
+              "bg": "#ece4f8",
+              "cells": [
+                "Ljubičasta",
+                "465 + 630",
+                "45 ± 10%",
+                "27"
+              ]
+            },
+            {
+              "bg": "#e0eaf5",
+              "cells": [
+                "Cijan",
+                "465 + 530",
+                "50 ± 10%",
+                "30"
+              ]
+            },
+            {
+              "bg": "#faf4df",
+              "cells": [
+                "Žuta",
+                "530 + 630",
+                "35 ± 10%",
+                "21"
+              ]
+            },
+            {
+              "bg": "#fef0e0",
+              "cells": [
+                "Narandžasta",
+                "590",
+                "35 ± 10%",
+                "21"
+              ]
+            }
+          ],
+          "note": "Energetska doza izračunata je prema formuli: iradijansa × vreme tretmana, uz konverziju iz milivata u vate."
+        }
+      ]
+    }
+  ],
+  "keyFeatures": {
+    "title": "Ciljano delovanje. Osam režima. Nega prilagođena vašoj koži.",
+    "items": [
+      "Ciljana svetlosna nega za različite potrebe kože — fine linije, koža sklona aknama, hiperpigmentacija, neujednačen ten, crvenilo i gruba tekstura kože.",
+      "5 talasnih dužina kroz 8 režima svetlosne terapije — različite talasne dužine namenjene podršci prirodnim procesima obnove kože i poboljšanju izgleda tena.",
+      "280 LED dioda za svetlosnu negu lica",
+      "Tretmani od 5 ili 10 minuta — svetlosnu terapiju možete lakše uklopiti u svoju redovnu rutinu nege lica uz automatsko isključivanje.",
+      "Fleksibilan silikon i praktična kućna upotreba — meka, fleksibilna silikonska konstrukcija i jednostavno upravljanje osmišljeni su za praktičniju primenu kod kuće."
+    ]
+  }
+}

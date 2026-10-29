@@ -1,0 +1,325 @@
+{
+  "badge": "NAJPRODAVANIJA",
+  "fullName": "4D LumiSkin Pro Face I LED Light Therapy Mask",
+  "shortName": "4D LumiSkin Pro Maska",
+  "typeLabel": "LED Light Therapy Maska",
+  "rating": 5,
+  "reviewCount": 9,
+  "description": "Naša najnaprednija LED maska za intenzivniju obnovu kože – namenjena ublažavanju finih linija, akni, hiperpigmentacije i poboljšanju teksture kože.",
+  "bullets": [
+    {
+      "icon": "led_dioda",
+      "text": "280 LED dioda"
+    },
+    {
+      "icon": "podesavanja_rezima",
+      "text": "9 režima svetlosne terapije sa različitim talasnim dužinama i kombinacijama svetlosti"
+    },
+    {
+      "icon": "talasne_duzine",
+      "text": "Pet talasnih dužina: 465, 530, 590, 630 i 850 nm"
+    },
+    {
+      "icon": "fleksibilna_maska",
+      "text": "Fleksibilna medicinska silikonska konstrukcija"
+    },
+    {
+      "icon": "tajmer",
+      "text": "Trajanje: Svaki režim traje 10 minuta. Uređaj se automatski isključuje po završetku tretmana."
+    },
+    {
+      "icon": "kalendar",
+      "text": "Preporučena upotreba 3–4 puta nedeljno"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "wrinkles",
+      "title": "Ciljano delovanje na kožu"
+    },
+    {
+      "icon": "repair",
+      "title": "Obnova elastičnosti kože"
+    },
+    {
+      "icon": "rejuvenation",
+      "title": "Vidljivo podmlađivanje"
+    }
+  ],
+  "sections": [
+    {
+      "key": "description",
+      "title": "Opis proizvoda",
+      "type": "paragraphs",
+      "content": [
+        "4D LumiSkin Pro je LED maska namenjena kućnoj nezi lica, osmišljena da podrži obnovu kože i poboljša njen izgled primenom svetlosne terapije.",
+        "Maska nudi 9 različitih svetlosnih režima, koji kombinuju različite boje svetlosti za ciljanu negu kože. Zahvaljujući pažljivo odabranim talasnim dužinama svetlosti, potkrepljenim kliničkim istraživanjima, i različitim režimima tretmana, LumiSkin Pro pruža praktičan način da se u svakodnevnu rutinu nege uključi neinvazivna svetlosna terapija. U zavisnosti od korišćenog režima, tretman može biti usmeren na različite potrebe kože, uključujući fine linije i bore, nepravilnosti, neujednačen ten i crvenilo.",
+        "Utvrdili smo da većina LED maski za svetlosnu terapiju pokriva samo deo tretirane regije, ostavljajući veliki deo lica nepokrivenim. Naša 4D LumiSkin Pro maska je dizajnirana da prevaziđe ova ograničenja i pruži napredniji pristup nezi kože.",
+        "Dizajn maske omogućava primenu tretmana kod kuće, bez komplikovanih postupaka i dugotrajne pripreme. Redovna upotreba prema uputstvu proizvođača može biti deo rutine usmerene na negu, osvežen i ujednačeniji izgled kože."
+      ]
+    },
+    {
+      "key": "howToUse",
+      "title": "Kako se koristi",
+      "type": "steps",
+      "content": [
+        {
+          "step": "Pripremite kožu",
+          "text": "Očistite lice i potpuno ga osušite. Pre tretmana koža treba da bude bez šminke, krema i seruma, naročito proizvoda koji sadrže sastojke koji povećavaju osetljivost na svetlost."
+        },
+        {
+          "step": "Postavite masku",
+          "text": "Namestite masku na lice i podesite traku tako da maska stabilno i udobno prijanja."
+        },
+        {
+          "step": "Uključite uređaj",
+          "text": "Pritisnite i držite dugme za uključivanje (Power) na maski približno 2 sekunde. Nakon zvučnog signala, uređaj prelazi u stanje pripravnosti, a zeleni indikator počinje da treperi."
+        },
+        {
+          "step": "Izaberite režim svetlosti",
+          "text": "Kratkim pritiskom na dugme Power pokrenite tretman i menjajte režime od M1 do M9. Režime možete menjati i pomoću priloženog daljinskog upravljača. Napomena: Daljinski upravljač služi samo za promenu režima i ne može da uključi ili isključi masku."
+        },
+        {
+          "step": "Trajanje tretmana",
+          "text": "Svaki režim traje 10 minuta, nakon čega se uređaj automatski isključuje. Za ručno isključivanje pritisnite i držite dugme Power približno 2 sekunde."
+        },
+        {
+          "step": "Nega nakon tretmana",
+          "text": "Nastavite uobičajenu rutinu nege kože. Ako masku koristite tokom dana, nakon tretmana nanesite kremu sa zaštitnim faktorom širokog spektra. Preporučena učestalost: 3–4 puta nedeljno. U zavisnosti od potreba i tolerancije kože, moguće je postepeno uvesti više uzastopnih režima, u ukupnom trajanju od 10 do 20 minuta."
+        }
+      ]
+    },
+    {
+      "key": "lightModes",
+      "title": "Režimi svetlosti",
+      "type": "modes-table",
+      "content": [
+        {
+          "num": 1,
+          "colorName": "Crvena + NIR",
+          "mixColors": "crvena + infracrvena",
+          "wavelength": "630 + 850 nm",
+          "bgColor": "#fce8e4",
+          "text": "Podržava procese obnove kože i stvaranje kolagena. Namenjena nezi kože sa finim linijama i gubitkom čvrstine.",
+          "colors": [
+            "#E84343",
+            "#d4a8a8"
+          ]
+        },
+        {
+          "num": 2,
+          "colorName": "Crvena",
+          "wavelength": "630 nm",
+          "bgColor": "#fde8e8",
+          "text": "Podržava stvaranje kolagena i elastina, doprinoseći čvršćem i zaglađenijem izgledu kože.",
+          "colors": [
+            "#E84343"
+          ]
+        },
+        {
+          "num": 3,
+          "colorName": "NIR",
+          "mixColors": "duboka infracrvena",
+          "wavelength": "850 nm",
+          "bgColor": "#f2e8e6",
+          "text": "Prodire dublje i podržava prirodne procese regeneracije i oporavka, za umireniji i osveženiji izgled kože.",
+          "colors": [
+            "#d4a8a8"
+          ]
+        },
+        {
+          "num": 4,
+          "colorName": "Plava",
+          "wavelength": "465 nm",
+          "bgColor": "#e4edfa",
+          "text": "Deluje na bakterije povezane sa aknama. Doprinosi kontroli sebuma i smanjenju vidljivosti pora.",
+          "colors": [
+            "#4a7cdc"
+          ]
+        },
+        {
+          "num": 5,
+          "colorName": "Zelena",
+          "wavelength": "530 nm",
+          "bgColor": "#e4f5e8",
+          "text": "Namenjena nezi neujednačenog tena i pigmentnih nepravilnosti. Podržava regulaciju sebuma.",
+          "colors": [
+            "#5ba05e"
+          ]
+        },
+        {
+          "num": 6,
+          "colorName": "Ljubičasta",
+          "mixColors": "plava + crvena",
+          "wavelength": "465 + 630 nm",
+          "bgColor": "#ece4f8",
+          "text": "Kombinuje plavu i crvenu za negu kože sklone nepravilnostima i znacima starenja.",
+          "colors": [
+            "#4a7cdc",
+            "#E84343"
+          ]
+        },
+        {
+          "num": 7,
+          "colorName": "Cijan",
+          "mixColors": "plava + zelena",
+          "wavelength": "465 + 530 nm",
+          "bgColor": "#dff0f5",
+          "text": "Podržava kožnu barijeru i prirodne procese obnove. Namenjena hidriranijem i uravnoteženijem izgledu kože.",
+          "colors": [
+            "#4a7cdc",
+            "#5ba05e"
+          ]
+        },
+        {
+          "num": 8,
+          "colorName": "Žuta",
+          "mixColors": "zelena + crvena",
+          "wavelength": "530 + 630 nm",
+          "bgColor": "#faf4df",
+          "text": "Umiruje vidljivo crvenilo i zaglađuje teksturu kože. Podržava stvaranje kolagena i blistav izgled.",
+          "colors": [
+            "#5ba05e",
+            "#E84343"
+          ]
+        },
+        {
+          "num": 9,
+          "colorName": "Bela",
+          "mixColors": "plava + zelena + crvena",
+          "wavelength": "465 + 530 + 630 nm",
+          "bgColor": "#f4f3f0",
+          "text": "Kombinuje više talasnih dužina za sveobuhvatnu negu kože. Podržava obnovu i ujednačeniji, odmorniji izgled tena.",
+          "colors": [
+            "#4a7cdc",
+            "#5ba05e",
+            "#E84343"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "whatsInBox",
+      "title": "Šta obuhvata pakovanje?",
+      "type": "list",
+      "content": [
+        "LED maska LumiSkin Pro",
+        "Daljinski upravljač za promenu režima svetlosne terapije",
+        "USB-C kabl za punjenje",
+        "Uputstvo za upotrebu"
+      ]
+    },
+    {
+      "key": "specs",
+      "title": "Tehničke specifikacije",
+      "type": "specs",
+      "content": [
+        {
+          "type": "modesTable",
+          "headers": [
+            "Režim",
+            "Talasna dužina (nm)",
+            "Iradijansa (mW/cm²)",
+            "Energetska doza (J/cm²)"
+          ],
+          "rows": [
+            {
+              "bg": "#fce8e4",
+              "cells": [
+                "Crvena + NIR",
+                "630 + 850",
+                "40 ± 10%",
+                "24"
+              ]
+            },
+            {
+              "bg": "#fde8e8",
+              "cells": [
+                "Crvena",
+                "630",
+                "35 ± 10%",
+                "21"
+              ]
+            },
+            {
+              "bg": "#f2e8e6",
+              "cells": [
+                "NIR — bliska infracrvena",
+                "850",
+                "30 ± 10%",
+                "18"
+              ]
+            },
+            {
+              "bg": "#e4edfa",
+              "cells": [
+                "Plava",
+                "465",
+                "29 ± 10%",
+                "17,4"
+              ]
+            },
+            {
+              "bg": "#e4f5e8",
+              "cells": [
+                "Zelena",
+                "530",
+                "35 ± 10%",
+                "21"
+              ]
+            },
+            {
+              "bg": "#ece4f8",
+              "cells": [
+                "Ljubičasta",
+                "465 + 630",
+                "45 ± 10%",
+                "27"
+              ]
+            },
+            {
+              "bg": "#dff0f5",
+              "cells": [
+                "Cijan",
+                "465 + 530",
+                "50 ± 10%",
+                "30"
+              ]
+            },
+            {
+              "bg": "#faf4df",
+              "cells": [
+                "Žuta",
+                "530 + 630",
+                "35 ± 10%",
+                "21"
+              ]
+            },
+            {
+              "bg": "#f4f3f0",
+              "cells": [
+                "Bela",
+                "465 + 530 + 630",
+                "45 ± 10%",
+                "27"
+              ]
+            }
+          ],
+          "note": "Energetska doza izračunata je prema formuli: iradijansa × vreme tretmana, uz konverziju iz milivata u vate."
+        }
+      ]
+    }
+  ],
+  "keyFeatures": {
+    "title": "Dublje delovanje. Veća snaga. Veća preciznost.",
+    "items": [
+      "Ciljano delovanje na različite probleme kože – fine linije i bore, akne, hiperpigmentacija, beživotan, siv izgled kože, crvenilo i vidljive nepravilnosti.",
+      "4 talasne dužine kroz 9 režima svetlosne terapije – kombinacije crvene, plave, zelene i bliske infracrvene svetlosti za sveobuhvatnu negu kože, prilagođenu različitim potrebama.",
+      "Crvena (630 nm), plava (465 nm), zelena (530 nm) i bliska infracrvena svetlost (850 nm) – različite talasne dužine namenjene podršci prirodnim procesima obnove kože, nezi nepravilnosti i poboljšanju izgleda tena.",
+      "280 LED dioda – osmišljene da omoguće veliku pokrivenost tretirane površine lica.",
+      "Tretmani od 10 minuta – jednostavna svetlosna nega koja se lako uklapa u kućnu rutinu, uz automatsko isključivanje po završetku tretmana.",
+      "9 režima za ciljanu negu – od pojedinačnih boja svetlosti do njihovih kombinacija, za negu kože sklone aknama, neujednačenom tenu, crvenilu i vidljivim znacima starenja.",
+      "Udobnost i zaštita tokom tretmana – fleksibilna medicinska silikonska maska sa ugrađenom zaštitom za oči, dizajnirana za udobno prijanjanje i praktičnu upotrebu kod kuće."
+    ]
+  }
+}

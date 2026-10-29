@@ -1,0 +1,148 @@
+{
+  "fullName": "LumiSkin Pro LED Care Cap – LED kapa za kosu i teme",
+  "shortName": "LumiSkin Pro LED Care Cap",
+    "typeLabel": "LED kapa za kosu i teme",
+      "rating": 5,
+  "reviewCount": 9,
+  "description": "LED kapa koja kombinuje crvenu svetlost od 660 nm i blisku infracrvenu svetlost od 850 nm za neinvazivnu svetlosnu negu temena glave — uz tri nivoa intenziteta i četiri režima rada.",
+  "bullets": [
+    { "icon": "led_dioda",          "text": "216 LED dioda" },
+    { "icon": "talasne_duzine",     "text": "Kombinacija dve talasne dužine: crvena (660 nm) i bliska infracrvena (850 nm)" },
+    { "icon": "podesavanja_rezima", "text": "Tri nivoa intenziteta - prilagodite jačinu svetlosti" },
+    { "icon": "fleksibilna_maska",  "text": "Četiri režima rada - sporo pulsiranje, pulsiranje na 10 Hz, 40 Hz i kontinuirani" },
+    { "icon": "tajmer",             "text": "Automatsko isključivanje nakon 20 minuta" },
+    { "icon": "kalendar",           "text": "Punjivo napajanje - USB, 5V / 1A" }
+  ],
+  "highlights": [
+    { "icon": "wrinkles",     "title": "Nega kose i temena" },
+    { "icon": "repair",       "title": "Dve talasne dužine" },
+    { "icon": "rejuvenation", "title": "Praktična kućna upotreba" }
+  ],
+  "sections": [
+    {
+      "key": "description",
+      "title": "Opis proizvoda",
+      "type": "paragraphs",
+      "content": [
+        "LumiSkin Pro Care Cap je LED kapa namenjena kućnoj nezi temena, koja kombinuje crvenu svetlost od 660 nm i blisku infracrvenu svetlost od 850 nm. Ove dve talasne dužine čine osnovu svetlosne tehnologije uređaja, namenjene neinvazivnoj kozmetičkoj nezi kose i temena.",
+        "Kapa je praktično rešenje za sve koji žele da uključe LED svetlosni tretman u svoju rutinu nege kose. Omogućava izbor između tri nivoa intenziteta svetlosti i četiri režima rada – sporog pulsiranja, pulsiranja na 10 Hz, pulsiranja na 40 Hz i kontinuiranog svetla.",
+        "Za jednostavnu upotrebu kod kuće, preporučeno trajanje tretmana je 10–20 minuta, 3–4 puta nedeljno. Uređaj se automatski isključuje nakon 20 minuta, a puni se putem USB kabla.",
+        "LumiSkin Pro LED Care Cap namenjena je kozmetičkoj nezi kose i temena. Ne predstavlja medicinski uređaj, a konkretni rezultati u pogledu rasta, gustine ili smanjenja opadanja kose mogu se razlikovati od osobe do osobe."
+      ]
+    },
+    {
+      "key": "lightModes",
+      "title": "Svetlosna tehnologija",
+      "type": "modes-table",
+      "content": [
+        {
+          "num": 1,
+          "colorName": "Crvena",
+          "wavelength": "660 nm",
+          "bgColor": "#fde8e8",
+          "text": "Crvena svetlost namenjena je podršci folikulima dlake i izgledu vlasišta. Proučava se zbog mogućeg uticaja na ćelijske procese u folikulima dlake.",
+          "colors": ["#E84343"]
+        },
+        {
+          "num": 2,
+          "colorName": "NIR",
+          "wavelength": "850 nm",
+          "bgColor": "#f2e8e6",
+          "text": "Bliska infracrvena svetlost prodire u tkivo drugačije od vidljive crvene i predstavlja dopunski deo svetlosne tehnologije za negu temena glave.",
+          "colors": ["#d4a8a8"]
+        }
+      ]
+    },
+    {
+      "key": "settings",
+      "title": "Prilagodite tretman",
+      "type": "paragraphs",
+      "content": [
+        "Kapa nudi tri nivoa intenziteta svetlosti: nizak, srednji i visok. Kratkim pritiscima na dugme SW1 birate željeno podešavanje jačine svetlosti.",
+        "Dostupna su četiri režima rada: sporo pulsiranje, pulsiranje na 10 Hz, pulsiranje na 40 Hz i kontinuirana svetlost. Kratkim pritiscima na dugme SW2 birate režim koji vam odgovara.",
+        "Preporučena učestalost: 3–4 puta nedeljno, 10–20 minuta po tretmanu. Uređaj se automatski isključuje nakon 20 minuta."
+      ]
+    },
+    {
+      "key": "howToUse",
+      "title": "Kako se koristi",
+      "type": "steps",
+      "content": [
+        {
+          "step": "Pripremite kosu i teme",
+          "text": "Kosa, teme i unutrašnja LED površina moraju biti čisti i potpuno suvi pre tretmana."
+        },
+        {
+          "step": "Postavite kapu",
+          "text": "Namestite kapu udobno tako da LED površina bude usmerena prema temenu glave."
+        },
+        {
+          "step": "Uključite uređaj",
+          "text": "Pritisnite i zadržite taster SW1 na uređaju. Dva zvučna signala potvrđuju uspešno uključivanje."
+        },
+        {
+          "step": "Izaberite intenzitet",
+          "text": "Kratkim pritiscima na SW1 birajte nizak, srednji ili visok intenzitet svetlosti."
+        },
+        {
+          "step": "Odaberite režim rada",
+          "text": "Kratkim pritiscima na SW2 birajte jedan od četiri dostupna režima: sporo pulsiranje, 10 Hz, 40 Hz ili kontinuirano svetlo."
+        },
+        {
+          "step": "Završite tretman",
+          "text": "Preporučeno trajanje tretmana je 10–20 minuta. Uređaj se automatski isključuje nakon 20 minuta. Za ručno isključivanje pritisnite i zadržite SW1."
+        },
+        {
+          "step": "Kada očekivati rezultate",
+          "text": "1–2 meseca: Moguće poboljšanje stanja kože glave.\n3–6 meseci: Moguće primetno poboljšanje gustine kose."
+        }
+      ]
+    },
+    {
+      "key": "whatsInBox",
+      "title": "Šta se nalazi u pakovanju?",
+      "type": "list",
+      "content": [
+        "LumiSkin Pro LED Care Cap",
+        "USB kabl",
+        "Uputstvo za upotrebu",
+        "Kutija za pakovanje"
+      ]
+    },
+    {
+      "key": "specs",
+      "title": "Tehničke specifikacije",
+      "type": "specs",
+      "content": [
+        { "label": "Naziv proizvoda",          "value": "LumiSkin Pro LED Care Cap" },
+        { "label": "Tip uređaja",              "value": "LED kapa za kosu i teme" },
+        { "label": "Broj LED dioda",           "value": "216" },
+        { "label": "Talasne dužine",           "value": "660 nm i 850 nm" },
+               {
+          "label": "Intenzitet svetlosti",
+          "value": "11 / 16.5 / 22 mW/cm² (3 levels)"
+        },
+        { "label": "Podešavanje intenziteta",  "value": "3 nivoa (nizak, srednji, visok)" },
+        { "label": "Režimi rada",              "value": "4 (sporo pulsiranje, 10 Hz, 40 Hz, kontinuirano)" },
+        { "label": "Trajanje tretmana",        "value": "10–20 minuta" },
+        { "label": "Automatsko isključivanje", "value": "nakon 20 minuta" },
+        { "label": "Napajanje za punjenje",    "value": "5 V / 1 A" },
+        { "label": "Intenzitet svetlosti",     "value": "11 / 16,5 / 22 mW/cm² — 3 nivoa intenziteta za prilagođavanje tretmana" },
+        { "label": "Dimenzije",                "value": "250 × 200 × 130 mm (25 × 20 × 13 cm)" },
+        { "label": "Težina",                   "value": "240 g — lagana i praktična za svakodnevnu upotrebu" }
+      ]
+    }
+  ],
+  "keyFeatures": {
+    "title": "Napredna LED nega kose i temena",
+    "items": [
+      "Smanjuje opadanje kose",
+      "Pomaže u ublažavanju umora",
+      "Doprinosi kvalitetnijem snu",
+      "Jača kosu",
+      "Poboljšava zdravlje kože glave",
+      "Praktična kućna upotreba – jednostavno postavljanje kape omogućava redovan LED tretman u rutini nege kose.",
+      "Automatsko isključivanje nakon 20 minuta – praktična funkcija koja olakšava praćenje trajanja tretmana."
+    ]
+  }
+}
