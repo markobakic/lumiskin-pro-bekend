@@ -27,6 +27,7 @@ class ProductSummaryResource extends JsonResource
             'accentStrong' => $this->accent_strong,
             'useImg' => (bool) $this->use_img,
             'image' => $this->image,
+            'images' => $this->images ?? [],
         ];
     }
 }

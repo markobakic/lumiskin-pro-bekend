@@ -20,6 +20,7 @@ class Product extends Model
         'accent_strong',
         'use_img',
         'image',
+        'images',
         'details',
         'sort_order',
         'is_active',
@@ -27,7 +28,8 @@ class Product extends Model
 
     protected $casts = [
         'features' => 'array',
-        'details' => 'array',
+        'images'   => 'array',
+        'details'  => 'array',
         'use_img' => 'boolean',
         'is_active' => 'boolean',
         'price' => 'integer',

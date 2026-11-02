@@ -20,6 +20,7 @@ class PostResource extends JsonResource
             'date' => $this->date?->format('Y-m-d'),
             'readingTime' => $this->reading_time,
             'sections' => $this->sections ?? [],
+            'image' => $this->image ? asset('storage/' . $this->image) : null,
         ];
     }
 }

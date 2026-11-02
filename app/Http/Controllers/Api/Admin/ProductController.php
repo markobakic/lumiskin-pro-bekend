@@ -62,6 +62,8 @@ class ProductController extends Controller
             'accent_strong' => ['nullable', 'string', 'max:255'],
             'use_img' => ['boolean'],
             'image' => ['nullable', 'string', 'max:1024'],
+            'images' => ['nullable', 'array', 'max:5'],
+            'images.*' => ['string', 'max:1024'],
             'details' => ['nullable', 'array'],
             'sort_order' => ['nullable', 'integer'],
             'is_active' => ['boolean'],
