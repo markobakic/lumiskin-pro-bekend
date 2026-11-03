@@ -27,6 +27,11 @@ class DiscountController extends Controller
             return response()->json(['valid' => false, 'reason' => 'already_used']);
         }
 
+        // Kod važi 3 dana od generisanja
+        if ($row->created_at->addDays(3)->isPast()) {
+            return response()->json(['valid' => false, 'reason' => 'expired']);
+        }
+
         return response()->json(['valid' => true, 'discount' => 10]);
     }
 
@@ -43,6 +48,11 @@ class DiscountController extends Controller
 
         if (! $row) {
             return response()->json(['ok' => false, 'reason' => 'not_found_or_used'], 422);
+        }
+
+        // Spreči upotrebu isteklog koda (3 dana od generisanja)
+        if ($row->created_at->addDays(3)->isPast()) {
+            return response()->json(['ok' => false, 'reason' => 'expired'], 422);
         }
 
         $row->update(['is_used' => true, 'used_at' => now()]);
