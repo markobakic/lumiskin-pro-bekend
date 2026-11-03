@@ -12,4 +12,12 @@ class DiscountCodeController extends Controller
     {
         return DiscountCode::orderByDesc('created_at')->get();
     }
+
+    /** DELETE /api/admin/discount-codes/{id} — briše kod za popust. */
+    public function destroy($id)
+    {
+        $code = DiscountCode::findOrFail($id);
+        $code->delete();
+        return response()->json(['ok' => true]);
+    }
 }

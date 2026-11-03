@@ -65,7 +65,10 @@ Route::prefix('admin')->group(function () {
         Route::post('media', [\App\Http\Controllers\Api\Admin\MediaController::class, 'upload']);
 
         Route::get('newsletter', [AdminNewsletterController::class, 'index']);
+        Route::delete('newsletter/{id}', [AdminNewsletterController::class, 'destroy'])->whereNumber('id');
+
         Route::get('discount-codes', [DiscountCodeController::class, 'index']);
+        Route::delete('discount-codes/{id}', [DiscountCodeController::class, 'destroy'])->whereNumber('id');
 
         // Moderacija komentara
         Route::get('comments', [AdminCommentController::class, 'index']);

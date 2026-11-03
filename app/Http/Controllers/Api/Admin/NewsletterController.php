@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Api\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\NewsletterSubscriber;
-use Illuminate\Support\Facades\DB;
 
 class NewsletterController extends Controller
 {
@@ -23,5 +22,13 @@ class NewsletterController extends Controller
             ->leftJoin('discount_codes', 'discount_codes.email', '=', 'newsletter_subscribers.email')
             ->orderByDesc('newsletter_subscribers.created_at')
             ->get();
+    }
+
+    /** DELETE /api/admin/newsletter/{id} — uklanja pretplatnika. */
+    public function destroy($id)
+    {
+        $sub = NewsletterSubscriber::findOrFail($id);
+        $sub->delete();
+        return response()->json(['ok' => true]);
     }
 }
