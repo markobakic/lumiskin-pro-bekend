@@ -6,6 +6,7 @@ use App\Http\Controllers\Api\Admin\DiscountCodeController;
 use App\Http\Controllers\Api\Admin\NewsletterController as AdminNewsletterController;
 use App\Http\Controllers\Api\Admin\PostController as AdminPostController;
 use App\Http\Controllers\Api\Admin\ProductController as AdminProductController;
+use App\Http\Controllers\Api\Admin\ProductMediaController;
 use App\Http\Controllers\Api\CommentController;
 use App\Http\Controllers\Api\DiscountController;
 use App\Http\Controllers\Api\NewsletterController;
@@ -51,6 +52,9 @@ Route::prefix('admin')->group(function () {
         Route::get('products/{id}', [AdminProductController::class, 'show'])->whereNumber('id');
         Route::put('products/{id}', [AdminProductController::class, 'update'])->whereNumber('id');
         Route::delete('products/{id}', [AdminProductController::class, 'destroy'])->whereNumber('id');
+        // Upload medija za proizvode (mora pre {id} ruta da nema konflikta)
+        Route::post('products/media/image', [ProductMediaController::class, 'uploadImage']);
+        Route::post('products/media/video', [ProductMediaController::class, 'uploadVideo']);
 
         Route::get('posts', [AdminPostController::class, 'index']);
         Route::post('posts', [AdminPostController::class, 'store']);

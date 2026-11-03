@@ -29,6 +29,7 @@ class ProductResource extends JsonResource
             'useImg' => (bool) $this->use_img,
             'image' => $this->image,
             'images' => $this->images ?? [],
+            'videos' => $this->videos ?? [],
             'details' => $this->details,
         ];
     }

@@ -21,6 +21,7 @@ class Product extends Model
         'use_img',
         'image',
         'images',
+        'videos',
         'details',
         'sort_order',
         'is_active',
@@ -29,6 +30,7 @@ class Product extends Model
     protected $casts = [
         'features' => 'array',
         'images'   => 'array',
+        'videos'   => 'array',
         'details'  => 'array',
         'use_img' => 'boolean',
         'is_active' => 'boolean',

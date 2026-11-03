@@ -64,6 +64,8 @@ class ProductController extends Controller
             'image' => ['nullable', 'string', 'max:1024'],
             'images' => ['nullable', 'array', 'max:5'],
             'images.*' => ['string', 'max:1024'],
+            'videos' => ['nullable', 'array', 'max:1'],
+            'videos.*' => ['string', 'max:1024'],
             'details' => ['nullable', 'array'],
             'sort_order' => ['nullable', 'integer'],
             'is_active' => ['boolean'],
