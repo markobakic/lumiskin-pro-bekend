@@ -9,15 +9,19 @@ use Illuminate\Http\Request;
 class DiscountController extends Controller
 {
     /**
-     * POST /api/discount/validate  { code }
-     * Returns whether the code exists and is still usable.
+     * POST /api/discount/validate  { code, email }
+     * Returns whether the code exists, belongs to the email and is still usable.
      */
     public function validate(Request $request)
     {
-        $request->validate(['code' => ['required', 'string', 'max:20']]);
+        $request->validate([
+            'code'  => ['required', 'string', 'max:20'],
+            'email' => ['required', 'email:rfc', 'max:254'],
+        ]);
 
-        $code = strtoupper(trim($request->input('code')));
-        $row  = DiscountCode::where('code', $code)->first();
+        $code  = strtoupper(trim($request->input('code')));
+        $email = strtolower(trim($request->input('email')));
+        $row   = DiscountCode::where('code', $code)->where('email', $email)->first();
 
         if (! $row) {
             return response()->json(['valid' => false, 'reason' => 'not_found']);
@@ -27,8 +31,8 @@ class DiscountController extends Controller
             return response()->json(['valid' => false, 'reason' => 'already_used']);
         }
 
-        // Kod važi 3 dana od generisanja
-        if ($row->created_at->addDays(3)->isPast()) {
+        // Kod važi 15 minuta od generisanja
+        if ($row->created_at->addMinutes(15)->isPast()) {
             return response()->json(['valid' => false, 'reason' => 'expired']);
         }
 
@@ -36,22 +40,29 @@ class DiscountController extends Controller
     }
 
     /**
-     * POST /api/discount/use  { code }
+     * POST /api/discount/use  { code, email }
      * Marks the code as used. Called when the order is confirmed.
      */
     public function use(Request $request)
     {
-        $request->validate(['code' => ['required', 'string', 'max:20']]);
+        $request->validate([
+            'code'  => ['required', 'string', 'max:20'],
+            'email' => ['required', 'email:rfc', 'max:254'],
+        ]);
 
-        $code = strtoupper(trim($request->input('code')));
-        $row  = DiscountCode::where('code', $code)->where('is_used', false)->first();
+        $code  = strtoupper(trim($request->input('code')));
+        $email = strtolower(trim($request->input('email')));
+        $row   = DiscountCode::where('code', $code)
+            ->where('email', $email)
+            ->where('is_used', false)
+            ->first();
 
         if (! $row) {
             return response()->json(['ok' => false, 'reason' => 'not_found_or_used'], 422);
         }
 
-        // Spreči upotrebu isteklog koda (3 dana od generisanja)
-        if ($row->created_at->addDays(3)->isPast()) {
+        // Spreči upotrebu isteklog koda (15 minuta od generisanja)
+        if ($row->created_at->addMinutes(15)->isPast()) {
             return response()->json(['ok' => false, 'reason' => 'expired'], 422);
         }
 
