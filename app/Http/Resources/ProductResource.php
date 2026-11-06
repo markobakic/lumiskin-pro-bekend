@@ -18,7 +18,6 @@ class ProductResource extends JsonResource
             'id' => $this->slug,
             'category' => $this->category,
             'num' => $this->num,
-            'sortOrder' => (int) $this->sort_order,
             'name' => $this->name,
             'subtitle' => $this->subtitle,
             'description' => $this->description,
