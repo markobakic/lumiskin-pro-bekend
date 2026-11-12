@@ -19,29 +19,20 @@ class DiscountController extends Controller
             'email' => ['required', 'email:rfc', 'max:254'],
         ]);
 
-        $code  = strtoupper(trim($request->input('code')));
-        $email = strtolower(trim($request->input('email')));
-        $row   = DiscountCode::where('code', $code)->where('email', $email)->first();
+        $reason = DiscountCode::rejectionReason(
+            DiscountCode::findFor($request->input('code'), $request->input('email'))
+        );
 
-        if (! $row) {
-            return response()->json(['valid' => false, 'reason' => 'not_found']);
+        if ($reason) {
+            return response()->json(['valid' => false, 'reason' => $reason]);
         }
 
-        if ($row->is_used) {
-            return response()->json(['valid' => false, 'reason' => 'already_used']);
-        }
-
-        // Kod važi 15 minuta od generisanja
-        if ($row->created_at->addMinutes(15)->isPast()) {
-            return response()->json(['valid' => false, 'reason' => 'expired']);
-        }
-
-        return response()->json(['valid' => true, 'discount' => 10]);
+        return response()->json(['valid' => true, 'discount' => DiscountCode::PERCENT]);
     }
 
     /**
      * POST /api/discount/use  { code, email }
-     * Marks the code as used. Called when the order is confirmed.
+     * Marks the code as used. (Porudžbine kroz POST /api/orders troše kod same.)
      */
     public function use(Request $request)
     {
@@ -50,19 +41,13 @@ class DiscountController extends Controller
             'email' => ['required', 'email:rfc', 'max:254'],
         ]);
 
-        $code  = strtoupper(trim($request->input('code')));
-        $email = strtolower(trim($request->input('email')));
-        $row   = DiscountCode::where('code', $code)
-            ->where('email', $email)
-            ->where('is_used', false)
-            ->first();
+        $row = DiscountCode::findFor($request->input('code'), $request->input('email'));
+        $reason = DiscountCode::rejectionReason($row);
 
-        if (! $row) {
+        if ($reason === 'not_found' || $reason === 'already_used') {
             return response()->json(['ok' => false, 'reason' => 'not_found_or_used'], 422);
         }
-
-        // Spreči upotrebu isteklog koda (15 minuta od generisanja)
-        if ($row->created_at->addMinutes(15)->isPast()) {
+        if ($reason === 'expired') {
             return response()->json(['ok' => false, 'reason' => 'expired'], 422);
         }
 

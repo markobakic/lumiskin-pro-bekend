@@ -4,12 +4,14 @@ use App\Http\Controllers\Api\Admin\AuthController;
 use App\Http\Controllers\Api\Admin\CommentController as AdminCommentController;
 use App\Http\Controllers\Api\Admin\DiscountCodeController;
 use App\Http\Controllers\Api\Admin\NewsletterController as AdminNewsletterController;
+use App\Http\Controllers\Api\Admin\OrderController as AdminOrderController;
 use App\Http\Controllers\Api\Admin\PostController as AdminPostController;
 use App\Http\Controllers\Api\Admin\ProductController as AdminProductController;
 use App\Http\Controllers\Api\Admin\ProductMediaController;
 use App\Http\Controllers\Api\CommentController;
 use App\Http\Controllers\Api\DiscountController;
 use App\Http\Controllers\Api\NewsletterController;
+use App\Http\Controllers\Api\OrderController;
 use App\Http\Controllers\Api\PostController;
 use App\Http\Controllers\Api\ProductController;
 use Illuminate\Support\Facades\Route;
@@ -33,6 +35,9 @@ Route::post('newsletter/subscribe', [NewsletterController::class, 'subscribe']);
 
 Route::post('discount/validate', [DiscountController::class, 'validate']);
 Route::post('discount/use',      [DiscountController::class, 'use']);
+
+// Porudžbine iz korpe (max 10 po minutu sa iste IP adrese)
+Route::post('orders', [OrderController::class, 'store'])->middleware('throttle:10,1');
 
 /*
 |--------------------------------------------------------------------------
@@ -70,6 +75,11 @@ Route::prefix('admin')->group(function () {
 
         Route::get('newsletter', [AdminNewsletterController::class, 'index']);
         Route::delete('newsletter/{id}', [AdminNewsletterController::class, 'destroy'])->whereNumber('id');
+
+        Route::get('orders', [AdminOrderController::class, 'index']);
+        Route::get('orders/{id}', [AdminOrderController::class, 'show'])->whereNumber('id');
+        Route::patch('orders/{id}', [AdminOrderController::class, 'update'])->whereNumber('id');
+        Route::delete('orders/{id}', [AdminOrderController::class, 'destroy'])->whereNumber('id');
 
         Route::get('discount-codes', [DiscountCodeController::class, 'index']);
         Route::delete('discount-codes/{id}', [DiscountCodeController::class, 'destroy'])->whereNumber('id');

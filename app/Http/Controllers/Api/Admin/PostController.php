@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Post;
+use App\Support\PostSections;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
@@ -102,7 +103,7 @@ class PostController extends Controller
 
     private function validateData(Request $request, ?int $ignoreId = null): array
     {
-        return $request->validate([
+        $data = $request->validate([
             'slug'         => ['required', 'string', 'max:255', Rule::unique('posts', 'slug')->ignore($ignoreId)],
             'title'        => ['required', 'string', 'max:255'],
             'excerpt'      => ['nullable', 'string'],
@@ -111,5 +112,12 @@ class PostController extends Controller
             'sections'     => ['nullable', 'array'],
             'is_published' => ['boolean'],
         ]);
+
+        // podnaslovi, slike, liste i paragrafi bilo kojim redom — vidi App\Support\PostSections
+        if (array_key_exists('sections', $data)) {
+            $data['sections'] = PostSections::normalize($data['sections']);
+        }
+
+        return $data;
     }
 }
